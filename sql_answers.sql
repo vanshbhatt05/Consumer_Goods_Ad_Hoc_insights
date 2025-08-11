@@ -84,7 +84,7 @@ select channel,
 round(gross_sales_/1000000,2) as gross_sales_mln,
      round((gross_sales_/(select sum(gross_sales_) from cte1))*100,2)
 as percentage from cte1
-order by percentage desc
+order by percentage desc;
 
 Request 10
 with cte1 as(
@@ -94,7 +94,7 @@ rank() over(partition by division order by sum(sold_quantity)desc) as rank_order
  where fiscal_year=2021 group by division,product_code,product)
  
  select * from cte1 
- where rank_order<=3
+ where rank_order<=3;
 
 
 
