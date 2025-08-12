@@ -17,7 +17,7 @@ select *,round(((unique_product_2021-unique_product_2020)*100/unique_product_202
 from 2020_data,2021_data;
 
 Request 3
-SELECT segment,count(distinct product) as product_count FROM gdb0041.dim_product
+SELECT segment,count(distinct product_code) as product_count FROM gdb0041.dim_product
 group by segment
 order by product_count desc;
 
