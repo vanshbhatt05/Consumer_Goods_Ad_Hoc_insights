@@ -1,5 +1,7 @@
 🛠️ Consumer Goods Analysis
 
+## Live Dashboard: _[Consumer_Goods_Ad_Hoc_insights](https://app.powerbi.com/view?r=eyJrIjoiNmRjNTVhMGYtNWQ2MS00ODNkLThlOGYtN2EyOGZkZDBmNmY4IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9&pageName=ab9bae9bdd63306b6435)_
+
 This repository contains the SQL scripts and analysis used in a comprehensive project focused on the Consumer Goods Hardware industry. The primary objective was to analyze various data points to provide actionable insights related to customer segmentation, product performance, sales channels, and discount strategies.
 
 🔍 Project Overview
